@@ -1,0 +1,91 @@
+{% extends 'common_code/base.html' %}
+{% load static %}
+{% block title %}Blog{% endblock title %}
+
+
+{% block content %}
+<!-- card start -->
+<div class="container py-4 py-xl-5">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="mb-2"><u>Recent Blogs</u></h2>
+        </div>  
+    </div>
+    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+        <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src={% static "images/a3.png" %}>
+                <div class="card-body p-4">
+                    <h4 class="card-title">Digital Marketing</h4>
+                    <p class="card-text text-dark">Any marketing that uses electronic devices and can be used by marketing specialists to convey promotional messaging and measure its impact through your customer journey. In    practice, digital marketing typically refers to marketing campaigns that appear on a computer, phone, tablet, or other device. It can take many forms, including online video, display ads, search engine marketing, paid social ads and social media posts. Digital marketing is often compared to “traditional marketing” such as magazine ads, billboards, and direct mail. Oddly, television is usually lumped in with traditional marketing.
+                        Did you know that more than 3 quarters of Americans go online on a daily basis? Not only that, but 43% go on more than once a day and 26% are online “almost constantly.”
+                    
+                        These figures are even higher among mobile internet users. 89% of Americans go online at least daily, and 31% are online almost constantly. As a marketer, it's important to take advantage of the digital world with an online advertising presence, by building a brand, providing a great customer experience that also brings more potential customers and more, with a digital strategy.
+                    
+                        A digital marketing strategy allows you to leverage different digital channels such as social media, pay-per-click, search engine optimization, and email marketing to connect with existing customers and individuals interested in your products or services. As a result, you can build a brand, provide a great customer experience, bring in potential customers, and more.</p>
+                    <div class="d-flex">
+                    <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src={% static "images/01.jpg" %}>
+                        <div>
+                            <p class="fw-bold mb-0">G. S. Helaly</p>
+                            <p class="text-muted mb-0">Course Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src={% static "images/a5.png" %}>
+                <div class="card-body p-4">
+                    <h4 class="card-title">Inbound vs Digital Marketing</h4>
+                    <p class="card-text text-dark">Digital marketing and inbound marketing are easily confused, and for good reason. Digital marketing uses many of the same tools as inbound marketing—email and online content, to name a few. Both exist to capture the attention of prospects through the buyer's journey and turn them into customers. But the 2 approaches take different views of the relationship between the tool and the goal.
+        
+                        Digital marketing considers how individual tools or digital channels can convert prospects. A brand's digital marketing strategy may use multiple platforms or focus all of its efforts on 1 platform. For example, a company may primarily create content for social media platforms and email marketing campaigns while ignoring other digital marketing avenues.
+                        
+                        On the other hand, inbound marketing is a holistic concept. It considers the goal first, then looks at the available tools to determine which will effectively reach target customers, and then at which stage of the sales funnel that should happen. As an example, say you want to boost website traffic to generate more prospects and leads. You can focus on search engine optimization when developing your content marketing strategy, resulting in more optimized content, including blogs, landing pages, and more.
+                        
+                        The most important thing to remember about digital marketing and inbound marketing is that as a marketing professional, you don't have to choose between the 2. In fact, they work best together. Inbound marketing provides structure....... </p>
+                    <div class="d-flex">
+                    <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src={% static "images/2.jpg" %}>
+                        <div>
+                            <p class="fw-bold mb-0">M. R. Yun</p>
+                            <p class="text-muted mb-0">Course Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src={% static "images/d3.jpg" %}>
+                <div class="card-body p-4">
+                    <h4 class="card-title">Content Marketing</h4>
+                    <p class="card-text text-dark">As mentioned, the quality of your content is a key component of an optimized page. As a result, SEO is a major factor in content marketing, a strategy based on the distribution of relevant and valuable content to a target audience.
+            
+                        As in any marketing strategy, the goal of content marketing is to attract leads that ultimately convert into customers. But it does so differently than traditional advertising. Instead of enticing prospects with potential value from a product or service, it offers value for free in the form of written material, such as:
+                        
+                        Blog posts
+                        E-books
+                        Newsletters
+                        Video or audio transcripts
+                        Whitepapers
+                        Infographics
+                        Content marketing matters, and there are plenty of stats to prove it:
+                        
+                        84% of consumers expect companies to produce entertaining and helpful content experiences
+                        62% of companies that have at least 5,000 employees produce content daily
+                        92% of marketers believe that their company values content as an important asset
+                        As effective as content marketing is, it can be tricky. Content marketing writers need to be able to rank highly in search engine results while also engaging people who will read the material, share it, and interact further with the brand. When the content is relevant, it can establish strong relationships throughout the pipeline.
+                        
+                        To create effective content that's highly relevant and engaging, it's important to identify your audience. Who are you ultimately trying to reach with your content marketing efforts? Once you have a better grasp of your audience, you can determine the  ... </p>
+                    <div class="d-flex">
+                    <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src={% static "images/3.jpg" %}>
+                        <div>
+                            <p class="fw-bold mb-0">S. A. Shah</p>
+                            <p class="text-muted mb-0">Course Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- card end -->
+{% endblock content %}
